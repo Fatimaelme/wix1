@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.navebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 200px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left p{
+    margin-top: -2px;
+}
+.right ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+}
+.right li{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.right li:hover{
+    color: aqua;
+}
+.image{
+    background-image: url('https://www.sncf-connect.com/assets/media/2022-03/sommet-montagne-en-ete.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.image h3{
+    font-size: small;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 4px; 
+}
+.image p{
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+}
+
+.reserver{
+    background-color: black;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.reserver:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    padding-left: 200px;
+    gap: 30px;
+    justify-content: center;
+    padding-right: 100px;
+}
+.pic{
+    flex: 0.7;
+}
+.pic img{
+    width: 100%;
+}
+.trace{
+    height: 2px;
+    width: 40px;
+    background-color: black;
+    margin-top: 60px;
+}
+.paragraph h4{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.r{
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.r:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.footer{
+    background-color: rgba(81, 170, 248, 0.8);
+    display: flex;
+    padding: 20px 200px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0.5;
+    margin: 60px;
+}
+.p1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.address{
+    margin-top: 20px;
+}
+.tel{
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 20px;
+}
+.j{
+    margin-top: 20px;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+.tous{
+    flex: 0.5;
+}
+.p2{
+    margin-top: 20px;
+}
+.icon{
+    cursor: pointer;
+    display: flex;
+   gap: 10px;
+}
+.info input{
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 2px solid black;
+}
+.info textarea{
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 2px solid black;
+}
+.c{
+    width: 150px;
+    display: flex;
+    align-self: self-end;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.c:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.info input::placeholder{
+    color: black;
+}
+.info textarea::placeholder{
+    color: black;
+}
